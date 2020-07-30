@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: costs
+    columns:
+      - name: date
+        tests:
+          - not_null
